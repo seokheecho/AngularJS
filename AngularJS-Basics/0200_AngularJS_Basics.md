@@ -1,14 +1,14 @@
 # AngularJS Basics
-<pre>
+
   AngularJS는 JavaScript Framework
  - `<script>` 태그를 사용하여 HTML 페이지에 추가 할 수 있다.
  - AngularJS는 지시어(Directives)로 HTML 속성을 확장하고 표현식(Expressions)으로 HTML에 데이터를 바인딩한다.
 
 ** 데이터 바인딩(Data Binding)
   데이터 바인딩 이란 두 데이터 혹은 정보의 소스를 모두 일치시키는 기법이다.
-즉 화면에 보이는 데이터와 브라우저 메모리에 있는 데이터를 일치시키는 기법
+* 즉 화면에 보이는 데이터와 브라우저 메모리에 있는 데이터를 일치시키는 기법
  - 참고 : https://sungjk.github.io/2015/11/22/AngularJS(2).html
-</pre>
+
 
 ## [AngularJS는 JavaScript 프레임 워크]
   JavaScript로 작성된 라이브러리이다.
