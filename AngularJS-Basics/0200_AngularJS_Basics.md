@@ -1,28 +1,23 @@
 # AngularJS Basics
-    AngularJS는 JavaScript Framework
- - `<script>` 태그를 사용하여 HTML 페이지에 추가 할 수 있다.
- - AngularJS는 지시어(Directives)로 HTML 속성을 확장하고 표현식(Expressions)으로 HTML에 데이터를 바인딩한다.
+  AngularJS는 JavaScript Framework <br/>
+`<script>` 태그를 사용하여 HTML 페이지에 추가 할 수 있다. <br/>
+AngularJS는 지시어(Directives)로 HTML 속성을 확장하고 표현식(Expressions)으로 HTML에 데이터를 바인딩한다. <br/>
 
-** 데이터 바인딩(Data Binding)
-
-  데이터 바인딩 이란 두 데이터 혹은 정보의 소스를 모두 일치시키는 기법이다.
-
-
-즉 화면에 보이는 데이터와 브라우저 메모리에 있는 데이터를 일치시키는 기법
-
-
+** 데이터 바인딩(Data Binding) <br/>
+  데이터 바인딩 이란 두 데이터 혹은 정보의 소스를 모두 일치시키는 기법이다. <br/>
+즉 화면에 보이는 데이터와 브라우저 메모리에 있는 데이터를 일치시키는 기법 <br/>
  - 참고 : https://sungjk.github.io/2015/11/22/AngularJS(2).html
 
 
 ## [AngularJS는 JavaScript 프레임 워크]
-  JavaScript로 작성된 라이브러리이다. <br>
-AngularJS는 JavaScript 파일로 배포되며 스크립트 태그가 있는 웹 페이지에 추가 할 수 있다. <br>
+  JavaScript로 작성된 라이브러리이다. <br/>
+AngularJS는 JavaScript 파일로 배포되며 스크립트 태그가 있는 웹 페이지에 추가 할 수 있다. <br/>
 
 <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
 
 
 ## [AngularJS는 HTML을 확장]
-  AngularJS는 ng-directives로 HTML을 확장 <br>
+  AngularJS는 ng-directives로 HTML을 확장 <br/>
  - ng-app 지시어(directive)는 AngularJS application 임을 정의한다.
  - ng-model 지시어(directive)는 application data로 HTML 제어 값(input, select, textarea)을 바인딩한다.
  - ng-bind 지시어(directive)은 HTML보기로 application data를 바인딩한다.
@@ -70,7 +65,7 @@ Example explained:
 
 
 ## [AngularJS 표현식(Expressions)]
-  AngularJS 표현식(expression)은 이중 중괄호 {{expression}} 안에 작성된다. <br>
+  AngularJS 표현식(expression)은 이중 중괄호 {{expression}} 안에 작성된다. <br/>
 AngularJS는 표현식(expression)이 쓰여지는 곳에서 정확하게 데이터를 출력한다.
 
 ### 예제
