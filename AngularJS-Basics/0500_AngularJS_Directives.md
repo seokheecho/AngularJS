@@ -79,6 +79,3 @@ Total in dollar: {{ quantity * price }}
 
  ## [ng-init 지시문]
   -
-
-
-test
