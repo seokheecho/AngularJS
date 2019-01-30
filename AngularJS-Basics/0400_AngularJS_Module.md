@@ -94,7 +94,7 @@ app.controller("myCtrl", function($scope) {
 
 
 ## [Library 로드(load) 시기]
- - `<body>` 요소 의 끝에 스크립트를 배치하는 것은 HTML application에서 일반적이지만 , `<head>` 또는 시작 부분 에 AngularJS 라이브러리를 로드하는 것이 좋다.
+ - `<body>` 요소 의 끝에 스크립트를 배치하는 것은 HTML application에서 일반적이지만, `<head>` 또는 시작 부분 에 AngularJS 라이브러리를 로드하는 것이 좋다.
 
  - 라이브러리가 로드 된 후에 만 angular.module을 호출하여 컴파일 할 수 있기 때문이다.
 

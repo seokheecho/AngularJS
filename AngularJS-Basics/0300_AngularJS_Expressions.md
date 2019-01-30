@@ -5,7 +5,7 @@ AngularJS는 표현식(Expressions)을 사용하여 HTML에 데이터를 바인�
  - AngularJS expression은 이중 중괄호 안에 쓸 수 있다. `{{ expression }}`
  - AngularJS expression은 지시문 안에도 쓸 수 있다. `ng-bind="expression"`
  - AngularJS 는 표현식(Expressions)을 해결하고 표현식(Expressions)이 쓰여지는 곳의 결과를 정확하게 반환한다.
- - AngularJS 표현식(Expressions)은 JavaScript 표현식(Expressions)과 매우 유사하다. 리터럴, 연산자 및 변수를 포함 할 수 있다. ex) {{5 + 5}} 또는 {{firstName + ""+ lastName}}
+ - AngularJS 표현식(Expressions)은 JavaScript 표현식(Expressions)과 매우 유사하다. 리터럴, 연산자 및 변수를 포함 할 수 있다. ex) {{5 + 5}} 또는 {{firstName + "" + lastName}}
 
 ### 예제
 ~~~HTML

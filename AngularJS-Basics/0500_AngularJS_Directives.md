@@ -18,7 +18,7 @@
 <p>You wrote: {{ firstName }}</p>
 </div>
 ~~~
- - `ng-app` 지시문은 또한 AngularJS에게 `<div>` 요소가 AngularJS apapplication의 "owner" 임을 알린다.
+ - `ng-app` 지시문은 또한 AngularJS에게 `<div>` 요소가 AngularJS application의 "owner" 임을 알린다.
 
 ## [Data Binding]
  - 위 예제에서의 {{ firstName }} 표현식은 AngularJS data를 바인딩한 표현식이다.
@@ -79,6 +79,3 @@ Total in dollar: {{ quantity * price }}
 
  ## [ng-init 지시문]
   -
-  
-  
-  aa
