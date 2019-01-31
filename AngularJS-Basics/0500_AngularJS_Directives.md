@@ -167,4 +167,4 @@ app.directive("w3TestDirective", function() {
     ** A for Attribute
     ** C for Class
     ** M for Comment
- - 기본 default EA 값으로써 요소 이름(Element name)과 속성 이름(Attribute) 모두가 지시문을 호출 할 수 있음을 의미합니다.
+ - 기본 default EA 값으로써, 요소 이름(Element name)과 속성 이름(Attribute) 모두가 지시문을 호출 할 수 있음을 의미한다.
