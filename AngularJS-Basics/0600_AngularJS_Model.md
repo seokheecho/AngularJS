@@ -68,3 +68,30 @@ Email:
 
 ## [CSS Classes]
  - `ng-model` 지시어는 자신의 상태에 따라, HTML 요소에 CSS 클래스를 제공한다. :
+
+ ~~~HTML
+ <style>
+input.ng-invalid {
+  background-color: lightblue;
+}
+</style>
+<body>
+<form ng-app="" name="myForm">
+  Enter your name:
+  <input name="myName" ng-model="myText" required>
+</form>
+<p>Edit the text field and it will get/lose classes according to the status.</p>
+<p><b>Note:</b> A text field with the "required" attribute is not valid when it is empty.</p>
+ ~~~
+
+ - `ng-model` 지시어는 지정 폼 필드의 상태에 따라, 다음 클래스 삭제/추가 한다. :
+
+ **ng-empty
+ **ng-not-empty
+ **ng-touched
+ **ng-valid
+ **ng-untouched
+ **ng-invalid
+ **ng-dirty
+ **ng-pending
+ **ng-pristine
