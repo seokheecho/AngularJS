@@ -1,4 +1,4 @@
-# AngularJS Model
+# AngularJS Data Binding
  - AngularJS 에서 데이터 바인딩(Data Binding)은 모델(Modle)과 뷰(View) 간의 동기화이다.
 
 ## [Data Model]
