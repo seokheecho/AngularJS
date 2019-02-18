@@ -142,7 +142,11 @@ app.controller('myCtrl', function($scope, $http) {
  });
  </script>
 ~~~
- - application 설명 : `$scope` 및 `$http` 객체를 사용하여 컨트롤러를 정의한다.
- - `$http` 는 외부 데이터를 요청을 위한 XMLHttpRequest 객체(object)이다.
- - `$http.get()` 는 https://www.w3schools.com/angular/customers.php 에서 JSON 데이터를 읽는다.
- - 성공하면 컨트롤러 myData는 서버의 JSON 데이터를 사용하여 scope의 속성을 만든다.
+ - application 설명 : `$scope` 및 `$http` 객체를 사용하여 컨트롤러를 정의한다.</br>
+ (The application defines the customersCtrl controller, with a $scope and $http object.)
+ - `$http` 는 외부 데이터를 요청을 위한 XMLHttpRequest 객체(object)이다.</br>
+ ($http is an XMLHttpRequest object for requesting external data.)
+ - `$http.get()` 는 https://www.w3schools.com/angular/customers.php 에서 JSON 데이터를 읽는다.</br>
+ ($http is an XMLHttpRequest object for requesting external data.)
+ - 성공하면 컨트롤러 myData는 서버의 JSON 데이터를 사용하여 scope의 속성을 만든다.</br>
+ (On success, the controller creates a property, myData, in the scope, with JSON data from the server.)
